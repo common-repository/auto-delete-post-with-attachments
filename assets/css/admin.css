@@ -1,0 +1,106 @@
+/*help tab*/
+#schedule-post-delete-helps{
+	border: 1px solid #f0f0f0;
+}
+#schedule-post-delete-helps .schedule-post-delete-help{
+	border-bottom: 1px solid #f0f0f0;
+	padding: 4px 8px;
+}
+#schedule-post-delete-helps .schedule-post-delete-help-heading {
+	margin: 5px 0;
+	font-size: 14px;
+	cursor: pointer;
+}
+#schedule-post-delete-helps .schedule-post-delete-help-heading a, 
+#schedule-post-delete-helps .schedule-post-delete-help-text a{
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-color: #4256b2;
+	/*background-image: linear-gradient(60deg, #4054B2 20%, #f2295b 80%);*/
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: 300;
+}
+#schedule-post-delete-helps .schedule-post-delete-help-heading .heading-text {
+	color: #515151;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: 300;
+}
+#schedule-post-delete-helps .schedule-post-delete-help-text > p {
+	font-size: 15px;
+}
+#schedule-post-delete-helps .schedule-post-delete-help-text > p:first-child {
+	margin: 0;
+}
+#schedule-post-delete-helps .schedule-post-delete-help-text {
+	padding: 8px;
+}
+
+#cx-row-schedule-post-delete_tools-report .cx-field-wrap {
+	position: relative;
+}
+#schedule-post-delete_report-copy {
+    position: absolute;
+    padding: 3px;
+    line-height: 0px;
+    right: 10px;
+    bottom: 20px;
+}
+/*=======new design=======*/
+#schedule-post-delete_help .schedule-post-delete-help-tab {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+#schedule-post-delete_help .schedule-post-delete-help-link {
+	display: block;
+	text-decoration: none;
+	background: #fff;
+	text-align: center;
+	width: 200px;
+	margin: 10px 0;
+	padding: 17px;
+	border-radius: 5px;
+	font-size: 17px;
+	color: #4256b2;
+	border: 1px solid #4256b2;
+	margin-bottom: 20px;
+	transition: .4s;
+}
+#schedule-post-delete_help .schedule-post-delete-help-link:hover {
+	background: #4256b2;
+	color: #fff;
+}
+#schedule-post-delete-modal {
+    position: fixed;
+    background: #c8c8c859;
+    top: 0;
+    border: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#schedule-post-delete-modal-loader {
+    position: absolute;
+}
+@media only screen and (max-width : 810px) {
+	#schedule-post-delete_help .schedule-post-delete-help-tab {
+		grid-template-columns: 4fr 1fr;
+	}
+	#schedule-post-delete_help .schedule-post-delete-help-link{
+		width: 150px;
+	}
+}
+@media only screen and (max-width : 420px) {
+	#schedule-post-delete_help .schedule-post-delete-help-tab {
+		grid-template-columns: 1fr;
+	}
+	#schedule-post-delete_help .schedule-post-delete-help-link{
+		width: 200px;
+	}
+}
+/*end help tab*/

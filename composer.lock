@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a3ff611dacc15a1904176a71a6edd876",
+    "packages": [
+        {
+            "name": "codexpert/plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/codexpertio/codexpert-plugin.git",
+                "reference": "d8f167ca0af47dc4b9ad77c85c4508b410b7968c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/codexpertio/codexpert-plugin/get/d8f167ca0af47dc4b9ad77c85c4508b410b7968c.zip",
+                "reference": "d8f167ca0af47dc4b9ad77c85c4508b410b7968c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Codexpert",
+                    "email": "hello@codexpert.io",
+                    "homepage": "https://codexpert.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Plugin tools for Codexpert",
+            "homepage": "https://bitbucket.org/codexpertio/codexpert-plugin",
+            "keywords": [
+                "codexpert",
+                "plugin"
+            ],
+            "time": "2022-05-08T05:06:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "codexpert/plugin": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
